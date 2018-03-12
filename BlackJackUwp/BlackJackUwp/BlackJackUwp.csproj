@@ -95,6 +95,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -107,6 +109,59 @@
     <None Include="BlackJackUwp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CardImages\10C.png" />
+    <Content Include="CardImages\10D.png" />
+    <Content Include="CardImages\10H.png" />
+    <Content Include="CardImages\10S.png" />
+    <Content Include="CardImages\2C.png" />
+    <Content Include="CardImages\2D.png" />
+    <Content Include="CardImages\2H.png" />
+    <Content Include="CardImages\2S.png" />
+    <Content Include="CardImages\3C.png" />
+    <Content Include="CardImages\3D.png" />
+    <Content Include="CardImages\3H.png" />
+    <Content Include="CardImages\3S.png" />
+    <Content Include="CardImages\4C.png" />
+    <Content Include="CardImages\4D.png" />
+    <Content Include="CardImages\4H.png" />
+    <Content Include="CardImages\4S.png" />
+    <Content Include="CardImages\5C.png" />
+    <Content Include="CardImages\5D.png" />
+    <Content Include="CardImages\5H.png" />
+    <Content Include="CardImages\5S.png" />
+    <Content Include="CardImages\6C.png" />
+    <Content Include="CardImages\6D.png" />
+    <Content Include="CardImages\6H.png" />
+    <Content Include="CardImages\6S.png" />
+    <Content Include="CardImages\7C.png" />
+    <Content Include="CardImages\7D.png" />
+    <Content Include="CardImages\7H.png" />
+    <Content Include="CardImages\7S.png" />
+    <Content Include="CardImages\8C.png" />
+    <Content Include="CardImages\8D.png" />
+    <Content Include="CardImages\8H.png" />
+    <Content Include="CardImages\8S.png" />
+    <Content Include="CardImages\9C.png" />
+    <Content Include="CardImages\9D.png" />
+    <Content Include="CardImages\9H.png" />
+    <Content Include="CardImages\9S.png" />
+    <Content Include="CardImages\AC.png" />
+    <Content Include="CardImages\AD.png" />
+    <Content Include="CardImages\AH.png" />
+    <Content Include="CardImages\AS.png" />
+    <Content Include="CardImages\JC.png" />
+    <Content Include="CardImages\JD.png" />
+    <Content Include="CardImages\JH.png" />
+    <Content Include="CardImages\JS.png" />
+    <Content Include="CardImages\KC.png" />
+    <Content Include="CardImages\KD.png" />
+    <Content Include="CardImages\KH.png" />
+    <Content Include="CardImages\KS.png" />
+    <Content Include="CardImages\QC.png" />
+    <Content Include="CardImages\QD.png" />
+    <Content Include="CardImages\QH.png" />
+    <Content Include="CardImages\QS.png" />
+    <Content Include="CardImages\red_back.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
