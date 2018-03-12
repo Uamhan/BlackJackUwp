@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlackJackUwp
 {
-    class Card
+    public class Card
     {
 
         public string rank;

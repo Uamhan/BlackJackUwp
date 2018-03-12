@@ -18,6 +18,7 @@ namespace BlackJackUwp
         {
             string[] rank = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
             string[] suits = { "H", "C", "D", "S" };
+            deck = new Card[NUMBER_OF_CARDS];
             currentCard = 0;
             rand = new Random();
             for (int i = 0; i < deck.Length;i++)
