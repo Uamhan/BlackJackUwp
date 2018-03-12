@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,17 +23,68 @@ namespace BlackJackUwp
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        int cardHeight = 125;
+        int cardWidth = 100;
+        int maxCards = 6;
+
         public MainPage()
         {
             this.InitializeComponent();
+
+            
+
             Deck deck = new Deck();
             deck.loadimages();
             deck.shuffle();
             Card[] playerHand = {deck.DealCard(), deck.DealCard()};
             Card[] dealerHand = {deck.DealCard(), deck.DealCard()};
             int playerscore = GetScore(playerHand);
+            setupTable();
             
 
+
+        }
+
+        public void setupTable()
+        {
+            Grid grdPlayerHand = new Grid();
+            grdPlayerHand.Name = "playerHand";
+            grdPlayerHand.Height = cardHeight ;
+            grdPlayerHand.Width = cardWidth * maxCards;
+            grdPlayerHand.Margin = new Thickness(5);
+            grdPlayerHand.Background = new SolidColorBrush(Colors.Gray);
+            grdPlayerHand.SetValue(Grid.ColumnProperty, 1);
+            grdPlayerHand.SetValue(Grid.RowProperty, 1);
+            grdPlayerHand.HorizontalAlignment = HorizontalAlignment.Center;
+            grdPlayerHand.VerticalAlignment = VerticalAlignment.Bottom;
+
+            for (int i = 0; i < maxCards;i++)
+            {
+                grdPlayerHand.ColumnDefinitions.Add(new ColumnDefinition());
+                
+            }
+
+            grdContainer.Children.Add(grdPlayerHand);
+
+            Grid grdDealerHand = new Grid();
+            grdDealerHand.Name = "dealerHand";
+            grdDealerHand.Height = cardHeight;
+            grdDealerHand.Width = cardWidth * maxCards;
+            grdDealerHand.Margin = new Thickness(5);
+            grdDealerHand.Background = new SolidColorBrush(Colors.Gray);
+            grdDealerHand.SetValue(Grid.ColumnProperty, 1);
+            grdDealerHand.SetValue(Grid.RowProperty, 1);
+            grdDealerHand.HorizontalAlignment = HorizontalAlignment.Center;
+            grdDealerHand.VerticalAlignment = VerticalAlignment.Top;
+
+            for (int i = 0; i < maxCards; i++)
+            {
+                grdPlayerHand.ColumnDefinitions.Add(new ColumnDefinition());
+
+            }
+
+            grdContainer.Children.Add(grdDealerHand);
 
         }
 
