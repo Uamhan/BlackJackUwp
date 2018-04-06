@@ -12,7 +12,9 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Shapes;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -24,22 +26,9 @@ namespace BlackJackUwp
     public sealed partial class MainPage : Page
     {
 
-        int cardHeight = 125;
-        int cardWidth = 100;
-        int maxCards = 6;
-
         public MainPage()
         {
             this.InitializeComponent();
-
-            
-
-            Deck deck = new Deck();
-            deck.loadimages();
-            deck.shuffle();
-            Card[] playerHand = {deck.DealCard(), deck.DealCard()};
-            Card[] dealerHand = {deck.DealCard(), deck.DealCard()};
-            int playerscore = GetScore(playerHand);
             setupTable();
             
 
@@ -48,43 +37,6 @@ namespace BlackJackUwp
 
         public void setupTable()
         {
-            //Grid grdPlayerHand = new Grid();
-            //grdPlayerHand.Name = "playerHand";
-            //grdPlayerHand.Height = cardHeight ;
-            //grdPlayerHand.Width = cardWidth * maxCards;
-            //grdPlayerHand.Margin = new Thickness(5);
-            //grdPlayerHand.Background = new SolidColorBrush(Colors.Gray);
-            //grdPlayerHand.SetValue(Grid.ColumnProperty, 1);
-            //grdPlayerHand.SetValue(Grid.RowProperty, 1);
-            //grdPlayerHand.HorizontalAlignment = HorizontalAlignment.Center;
-            //grdPlayerHand.VerticalAlignment = VerticalAlignment.Bottom;
-
-            //for (int i = 0; i < maxCards;i++)
-            //{
-            //    grdPlayerHand.ColumnDefinitions.Add(new ColumnDefinition());
-
-            //}
-
-            //grdContainer.Children.Add(grdPlayerHand);
-
-            //Grid grdDealerHand = new Grid();
-            //grdDealerHand.Name = "dealerHand";
-            //grdDealerHand.Height = cardHeight;
-            //grdDealerHand.Width = cardWidth * maxCards;
-            //grdDealerHand.Margin = new Thickness(5);
-            //grdDealerHand.Background = new SolidColorBrush(Colors.Gray);
-            //grdDealerHand.SetValue(Grid.ColumnProperty, 1);
-            //grdDealerHand.SetValue(Grid.RowProperty, 1);
-            //grdDealerHand.HorizontalAlignment = HorizontalAlignment.Center;
-            //grdDealerHand.VerticalAlignment = VerticalAlignment.Top;
-
-            //for (int i = 0; i < maxCards; i++)
-            //{
-            //    grdPlayerHand.ColumnDefinitions.Add(new ColumnDefinition());
-
-            //}
-
-            //grdContainer.Children.Add(grdDealerHand);
 
             List<Card> playerHand = new List<Card>();
             List<Card> dealerHand = new List<Card>();
@@ -95,6 +47,25 @@ namespace BlackJackUwp
             dealerHand.Add(deck.DealCard());
             playerHand.Add(deck.DealCard());
             dealerHand.Add(deck.DealCard());
+
+            Rectangle pc1 = CreateCard(playerHand[0]);
+            Rectangle pc2 = CreateCard(playerHand[1]);
+            Rectangle dc1 = CreateCard(dealerHand[0]);
+            Rectangle dc2 = CreateCard(dealerHand[1]);
+
+            pc1.SetValue(Grid.RowProperty, 3);
+            pc1.SetValue(Grid.ColumnProperty, 3);
+
+
+        }
+
+        public Rectangle CreateCard(Card card)
+        {
+                Rectangle c = new Rectangle();
+                ImageBrush bpBrush = new ImageBrush();
+                bpBrush.ImageSource = new BitmapImage(new Uri(card.pictureLocation));
+                c.Fill = bpBrush;
+                return c;
         }
 
         public int GetScore(Card[] hand)
