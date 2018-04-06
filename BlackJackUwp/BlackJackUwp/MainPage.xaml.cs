@@ -86,7 +86,10 @@ namespace BlackJackUwp
         }
         public void gameOver()
         {
-            if(GetScore(playerHand)>GetScore(dealerHand)|| GetScore(dealerHand) > 21)
+
+            Winner.Visibility= Visibility.Visible;
+            playAgain.Visibility = Visibility.Visible;
+            if (GetScore(playerHand)>GetScore(dealerHand)|| GetScore(dealerHand) > 21)
             {
                 Winner.Text = "Player Wins";
             }
@@ -179,6 +182,15 @@ namespace BlackJackUwp
         private void playAgain_Click(object sender, RoutedEventArgs e)
         {
 
+            Grid table = FindName("grdContainer") as Grid;
+
+            foreach (Rectangle r in table.Children.OfType<Rectangle>())
+            {
+                table.Children.Remove(r);
+            }
+
+            Winner.Visibility = Visibility.Collapsed;
+            playAgain.Visibility = Visibility.Collapsed;
             setupTable();
         }
     }

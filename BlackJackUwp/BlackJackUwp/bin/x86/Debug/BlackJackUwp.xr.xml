@@ -23,11 +23,13 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="BlackJackUwp.MainPage" />
   </Roots.RootTypes>

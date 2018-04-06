@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T21:29:08.460</Modified>
+      <Modified>2018-04-06T21:39:55.661</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.exe">
       <PackagePath>entrypoint\BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T21:29:08.190</Modified>
+      <Modified>2018-04-06T21:39:55.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -747,7 +747,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.xr.xml">
       <PackagePath>BlackJackUwp.xr.xml</PackagePath>
-      <Modified>2018-04-06T21:26:59.892</Modified>
+      <Modified>2018-04-06T21:35:12.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -756,11 +756,11 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T21:27:00.432</Modified>
+      <Modified>2018-04-06T21:35:49.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\BlackJackUwp.exe">
       <PackagePath>BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T21:29:08.456</Modified>
+      <Modified>2018-04-06T21:39:55.657</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
