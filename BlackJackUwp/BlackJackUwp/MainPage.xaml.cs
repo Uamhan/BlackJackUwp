@@ -86,7 +86,15 @@ namespace BlackJackUwp
         }
         public void gameOver()
         {
-
+            if(GetScore(playerHand)>GetScore(dealerHand)|| GetScore(dealerHand) > 21)
+            {
+                Winner.Text = "Player Wins";
+            }
+            else
+            {
+                Winner.Text = "Dealer Wins";
+            }
+            
         }
         public void Hitfunc(string player)
         {
@@ -115,10 +123,7 @@ namespace BlackJackUwp
                 r.SetValue(Grid.RowProperty, 1);
                 r.SetValue(Grid.ColumnProperty, dealerHand.Count);
                 dealerScore.Text = "Dealer Score : " + GetScore(dealerHand);
-                if (GetScore(dealerHand) > 21)
-                {
-                    gameOver();
-                }
+                
             }
         }
 
@@ -166,7 +171,15 @@ namespace BlackJackUwp
             {
                 Hitfunc("dealer");
             }
+            gameOver();
 
+
+        }
+
+        private void playAgain_Click(object sender, RoutedEventArgs e)
+        {
+
+            setupTable();
         }
     }
 }
