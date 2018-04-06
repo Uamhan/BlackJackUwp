@@ -11,7 +11,7 @@ namespace BlackJackUwp
 
         public Card[] deck;
         public int currentCard;
-        public const int NUMBER_OF_CARDS = 51;
+        public const int NUMBER_OF_CARDS = 52;
         private Random rand;
 
         public Deck()
@@ -23,7 +23,7 @@ namespace BlackJackUwp
             rand = new Random();
             for (int i = 0; i < deck.Length;i++)
             {
-                deck[i] = new Card(rank[i % 11], suits[i / 13]);
+                deck[i] = new Card(rank[i % 13], suits[i / 13]);
             }
         }
 

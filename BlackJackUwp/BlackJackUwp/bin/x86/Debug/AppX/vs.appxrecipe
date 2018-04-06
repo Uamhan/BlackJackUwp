@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T20:24:42.926</Modified>
+      <Modified>2018-04-06T20:40:48.869</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.exe">
       <PackagePath>entrypoint\BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T20:24:42.321</Modified>
+      <Modified>2018-04-06T20:40:48.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -756,11 +756,11 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T20:24:42.737</Modified>
+      <Modified>2018-04-06T20:40:48.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\BlackJackUwp.exe">
       <PackagePath>BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T20:24:42.922</Modified>
+      <Modified>2018-04-06T20:40:48.866</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

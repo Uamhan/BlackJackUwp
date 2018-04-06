@@ -94,7 +94,7 @@ namespace BlackJackUwp
                 table.Children.Add(r);
                 r.SetValue(Grid.RowProperty, 3);
                 //will need to be changed
-                r.SetValue(Grid.ColumnProperty, 4);
+                r.SetValue(Grid.ColumnProperty, playerHand.Count+1);
             }
         }
 

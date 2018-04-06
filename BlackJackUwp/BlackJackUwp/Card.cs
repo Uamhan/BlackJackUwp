@@ -19,7 +19,8 @@ namespace BlackJackUwp
         {
             rank = Rank;
             suit = Suit;
-            pictureLocation = "ms-appx://BlackJackUwp/CardImages/"+rank+suit+".png";
+            pictureLocation = "ms-appx://BlackJackUwp/CardImages/"+ Rank + Suit + ".png";
+            
         }
 
     }
