@@ -61,16 +61,16 @@ namespace BlackJackUwp
 
             table.Children.Add(pc1);
             pc1.SetValue(Grid.RowProperty, 3);
-            pc1.SetValue(Grid.ColumnProperty, 2);
+            pc1.SetValue(Grid.ColumnProperty, 1);
             table.Children.Add(pc2);
             pc2.SetValue(Grid.RowProperty, 3);
-            pc2.SetValue(Grid.ColumnProperty, 3);
+            pc2.SetValue(Grid.ColumnProperty, 2);
             table.Children.Add(dc1);
             dc1.SetValue(Grid.RowProperty, 1);
-            dc1.SetValue(Grid.ColumnProperty, 2);
+            dc1.SetValue(Grid.ColumnProperty, 1);
             table.Children.Add(dc2);
             dc2.SetValue(Grid.RowProperty, 1);
-            dc2.SetValue(Grid.ColumnProperty, 3);
+            dc2.SetValue(Grid.ColumnProperty, 2);
 
             playerScore.Text= "Player Score : " + GetScore(playerHand);
             dealerScore.Text = "Dealer Score : " + GetScore(dealerHand);
@@ -98,9 +98,24 @@ namespace BlackJackUwp
                 Grid table = FindName("grdContainer") as Grid;
                 table.Children.Add(r);
                 r.SetValue(Grid.RowProperty, 3);
-                r.SetValue(Grid.ColumnProperty, playerHand.Count+1);
+                r.SetValue(Grid.ColumnProperty, playerHand.Count);
                 playerScore.Text = "Player Score : " + GetScore(playerHand);
                 if (GetScore(playerHand)>21)
+                {
+                    gameOver();
+                }
+            }
+            else
+            {
+                Card c = deck.DealCard();
+                dealerHand.Add(c);
+                Rectangle r = CreateCard(c);
+                Grid table = FindName("grdContainer") as Grid;
+                table.Children.Add(r);
+                r.SetValue(Grid.RowProperty, 1);
+                r.SetValue(Grid.ColumnProperty, dealerHand.Count);
+                dealerScore.Text = "Dealer Score : " + GetScore(dealerHand);
+                if (GetScore(dealerHand) > 21)
                 {
                     gameOver();
                 }
@@ -146,6 +161,11 @@ namespace BlackJackUwp
 
         private void Check_Click(object sender, RoutedEventArgs e)
         {
+            int finalPlayerScore = GetScore(playerHand);
+            while (GetScore(dealerHand) < finalPlayerScore)
+            {
+                Hitfunc("dealer");
+            }
 
         }
     }
