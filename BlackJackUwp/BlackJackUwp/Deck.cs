@@ -23,7 +23,7 @@ namespace BlackJackUwp
             rand = new Random();
             for (int i = 0; i < deck.Length;i++)
             {
-                deck[i] = new Card(rank[i % 11], suits[i / 13],"notImplemented");
+                deck[i] = new Card(rank[i % 11], suits[i / 13]);
             }
         }
 
@@ -38,16 +38,7 @@ namespace BlackJackUwp
                 deck[second] = temp;
             }
         }
-
-        public void loadimages()
-        {
-            foreach(Card card in deck)
-            {
-                card.pictureLocation = "ms - appx:///CardImages/"+card.rank+card.suit+".png";
-            }
-        }
     
-
         public Card DealCard()
         {
             if(currentCard<deck.Length)

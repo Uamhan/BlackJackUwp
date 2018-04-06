@@ -15,11 +15,11 @@ namespace BlackJackUwp
         public string suit;
         public string pictureLocation;
 
-        public Card(string Rank, string Suit, string PictureLocation)
+        public Card(string Rank, string Suit)
         {
             rank = Rank;
             suit = Suit;
-            pictureLocation = PictureLocation;
+            pictureLocation = "ms - appx://BlackJackUwp/CardImages/"+rank+suit+".png";
         }
 
     }
