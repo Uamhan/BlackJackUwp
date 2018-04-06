@@ -72,6 +72,8 @@ namespace BlackJackUwp
             dc2.SetValue(Grid.RowProperty, 1);
             dc2.SetValue(Grid.ColumnProperty, 3);
 
+            playerScore.Text= "Player Score : " + GetScore(playerHand);
+            dealerScore.Text = "Dealer Score : " + GetScore(dealerHand);
         }
 
         public Rectangle CreateCard(Card card)
@@ -82,7 +84,10 @@ namespace BlackJackUwp
                 c.Fill = bpBrush;
                 return c;
         }
+        public void gameOver()
+        {
 
+        }
         public void Hitfunc(string player)
         {
             if (player.Equals("player"))
@@ -93,12 +98,16 @@ namespace BlackJackUwp
                 Grid table = FindName("grdContainer") as Grid;
                 table.Children.Add(r);
                 r.SetValue(Grid.RowProperty, 3);
-                //will need to be changed
                 r.SetValue(Grid.ColumnProperty, playerHand.Count+1);
+                playerScore.Text = "Player Score : " + GetScore(playerHand);
+                if (GetScore(playerHand)>21)
+                {
+                    gameOver();
+                }
             }
         }
 
-        public int GetScore(Card[] hand)
+        public int GetScore(List<Card> hand)
         {
             int score =0;
             int containsAce = 0;
@@ -133,6 +142,11 @@ namespace BlackJackUwp
         private void Hit_Click(object sender, RoutedEventArgs e)
         {
             Hitfunc("player");
+        }
+
+        private void Check_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

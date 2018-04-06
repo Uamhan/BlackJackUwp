@@ -27,7 +27,9 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
-        <Button Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit" Click="Hit_Click" ></Button>
-
+        <Button x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit" Click="Hit_Click" ></Button>
+        <Button x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check" Click="Check_Click" ></Button>
+        <TextBlock x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
+        <TextBlock x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
     </Grid>
 </Page>
