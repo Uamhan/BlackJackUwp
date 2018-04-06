@@ -205,8 +205,8 @@ namespace BlackJackUwp
 
             Winner.Visibility = Visibility.Collapsed;
             playAgain.Visibility = Visibility.Collapsed;
-            Hit.IsEnabled = false;
-            Check.IsEnabled = false;
+            Hit.IsEnabled = true;
+            Check.IsEnabled = true;
             setupTable();
         }
     }
