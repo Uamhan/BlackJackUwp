@@ -11,7 +11,7 @@ namespace BlackJackUwp
 
         public Card[] deck;
         public int currentCard;
-        public const int NUMBER_OF_CARDS = 52;
+        public const int NUMBER_OF_CARDS = 51;
         private Random rand;
 
         public Deck()

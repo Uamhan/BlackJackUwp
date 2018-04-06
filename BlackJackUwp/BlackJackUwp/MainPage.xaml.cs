@@ -25,6 +25,9 @@ namespace BlackJackUwp
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        List<Card> playerHand;
+        List<Card> dealerHand;
+        Deck deck;
 
         public MainPage()
         {
@@ -37,11 +40,14 @@ namespace BlackJackUwp
 
         public void setupTable()
         {
+            Grid table = FindName("grdContainer") as Grid;
 
-            List<Card> playerHand = new List<Card>();
-            List<Card> dealerHand = new List<Card>();
+            playerHand = new List<Card>();
+            dealerHand = new List<Card>();
 
-            Deck deck = new Deck();
+            deck = new Deck();
+
+            deck.shuffle();
 
             playerHand.Add(deck.DealCard());
             dealerHand.Add(deck.DealCard());
@@ -53,9 +59,18 @@ namespace BlackJackUwp
             Rectangle dc1 = CreateCard(dealerHand[0]);
             Rectangle dc2 = CreateCard(dealerHand[1]);
 
+            table.Children.Add(pc1);
             pc1.SetValue(Grid.RowProperty, 3);
-            pc1.SetValue(Grid.ColumnProperty, 3);
-
+            pc1.SetValue(Grid.ColumnProperty, 2);
+            table.Children.Add(pc2);
+            pc2.SetValue(Grid.RowProperty, 3);
+            pc2.SetValue(Grid.ColumnProperty, 3);
+            table.Children.Add(dc1);
+            dc1.SetValue(Grid.RowProperty, 1);
+            dc1.SetValue(Grid.ColumnProperty, 2);
+            table.Children.Add(dc2);
+            dc2.SetValue(Grid.RowProperty, 1);
+            dc2.SetValue(Grid.ColumnProperty, 3);
 
         }
 
@@ -66,6 +81,21 @@ namespace BlackJackUwp
                 bpBrush.ImageSource = new BitmapImage(new Uri(card.pictureLocation));
                 c.Fill = bpBrush;
                 return c;
+        }
+
+        public void Hitfunc(string player)
+        {
+            if (player.Equals("player"))
+            { 
+                Card c = deck.DealCard();
+                playerHand.Add(c);
+                Rectangle r = CreateCard(c);
+                Grid table = FindName("grdContainer") as Grid;
+                table.Children.Add(r);
+                r.SetValue(Grid.RowProperty, 3);
+                //will need to be changed
+                r.SetValue(Grid.ColumnProperty, 4);
+            }
         }
 
         public int GetScore(Card[] hand)
@@ -98,6 +128,11 @@ namespace BlackJackUwp
                 }
             }
             return score;
+        }
+
+        private void Hit_Click(object sender, RoutedEventArgs e)
+        {
+            Hitfunc("player");
         }
     }
 }

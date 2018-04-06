@@ -23,8 +23,8 @@
             <RowDefinition/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        
 
+        <Button x:ConnectionId='2' Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit"                   ></Button>
 
     </Grid>
 </Page>
