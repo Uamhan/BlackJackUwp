@@ -89,7 +89,7 @@ namespace BlackJackUwp
 
             Winner.Visibility= Visibility.Visible;
             playAgain.Visibility = Visibility.Visible;
-            if (GetScore(playerHand)>GetScore(dealerHand)|| GetScore(dealerHand) > 21)
+            if (GetScore(playerHand)>GetScore(dealerHand) && GetScore(playerHand) < 22 || GetScore(dealerHand) > 21 && GetScore(playerHand)<22)
             {
                 Winner.Text = "Player Wins";
             }
@@ -97,6 +97,9 @@ namespace BlackJackUwp
             {
                 Winner.Text = "Dealer Wins";
             }
+
+            Hit.IsEnabled = false;
+            Check.IsEnabled = false;
             
         }
         public void Hitfunc(string player)
@@ -184,13 +187,26 @@ namespace BlackJackUwp
 
             Grid table = FindName("grdContainer") as Grid;
 
-            foreach (Rectangle r in table.Children.OfType<Rectangle>())
+            int index = 0;
+            int children = table.Children.Count;
+            for (int i = 0; i < children; i++)
             {
-                table.Children.Remove(r);
+                Rectangle r = table.Children[index] as Rectangle;
+                if (r != null)
+                {
+                    //Remove children
+                    table.Children.RemoveAt(index);
+                }
+                else
+                {
+                    index++;
+                }
             }
 
             Winner.Visibility = Visibility.Collapsed;
             playAgain.Visibility = Visibility.Collapsed;
+            Hit.IsEnabled = false;
+            Check.IsEnabled = false;
             setupTable();
         }
     }
