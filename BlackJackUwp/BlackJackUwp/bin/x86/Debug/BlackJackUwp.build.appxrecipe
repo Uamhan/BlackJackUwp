@@ -559,6 +559,12 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Sounds\draw.wav">
+      <PackagePath>Sounds\draw.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Sounds\shuffle.wav">
+      <PackagePath>Sounds\shuffle.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.xr.xml">
       <PackagePath>BlackJackUwp.xr.xml</PackagePath>
     </AppxPackagedFile>

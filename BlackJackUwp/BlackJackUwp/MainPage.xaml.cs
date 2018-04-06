@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.Core;
+using Windows.Media.Playback;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -29,16 +32,19 @@ namespace BlackJackUwp
         List<Card> dealerHand;
         Deck deck;
 
+        MediaPlayer mediaPlayer;
+
         public MainPage()
         {
             this.InitializeComponent();
+            mediaPlayer = new MediaPlayer();
+            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Sounds/draw.wav"));
+          
             setupTable();
-            
-
-
+    
         }
 
-        public void setupTable()
+        public async void setupTable()
         {
             Grid table = FindName("grdContainer") as Grid;
 
@@ -74,6 +80,10 @@ namespace BlackJackUwp
 
             playerScore.Text= "Player Score : " + GetScore(playerHand);
             dealerScore.Text = "Dealer Score : " + GetScore(dealerHand);
+
+            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Sounds/shuffle.wav"));
+            mediaPlayer.Play();
+            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Sounds/draw.wav"));
         }
 
         public Rectangle CreateCard(Card card)
@@ -104,8 +114,10 @@ namespace BlackJackUwp
         }
         public void Hitfunc(string player)
         {
+            
             if (player.Equals("player"))
-            { 
+            {
+                
                 Card c = deck.DealCard();
                 playerHand.Add(c);
                 Rectangle r = CreateCard(c);
@@ -118,6 +130,7 @@ namespace BlackJackUwp
                 {
                     gameOver();
                 }
+
             }
             else
             {
@@ -168,14 +181,17 @@ namespace BlackJackUwp
         private void Hit_Click(object sender, RoutedEventArgs e)
         {
             Hitfunc("player");
+            mediaPlayer.Play();
         }
 
-        private void Check_Click(object sender, RoutedEventArgs e)
+        private async void Check_Click(object sender, RoutedEventArgs e)
         {
             int finalPlayerScore = GetScore(playerHand);
             while (GetScore(dealerHand) < finalPlayerScore)
             {
                 Hitfunc("dealer");
+                mediaPlayer.Play();
+                await Task.Delay(TimeSpan.FromSeconds(1));
             }
             gameOver();
 
