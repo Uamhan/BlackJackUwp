@@ -7,38 +7,39 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    
 
-    <Grid x:Name="grdContainer">
-        <Grid.Background>
-            <ImageBrush ImageSource="CardImages/background1.jpg"/>
-        </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+    <Border BorderBrush="#FF95948A" BorderThickness="10">
+        <Grid x:Name="grdContainer">
+            <Grid.Background>
+                <ImageBrush ImageSource="CardImages/background1.jpg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
 
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height= "100"/>
-            <RowDefinition/>
-            <RowDefinition Height= "100" />
-            <RowDefinition/>
-            <RowDefinition Height="100"/>
-        </Grid.RowDefinitions>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height= "100"/>
+                <RowDefinition/>
+                <RowDefinition Height= "100" />
+                <RowDefinition/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
 
-        <Button x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit" Click="Hit_Click" ></Button>
-        <Button x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check" Click="Check_Click" ></Button>
-        <TextBlock x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
-        <TextBlock x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
-        <TextBlock x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed"/>
-        <Button x:Name="playAgain" Grid.Column="3" Grid.Row="2" Padding="40" Content="Play Again" Click="playAgain_Click" Visibility="Collapsed"></Button>
-        <TextBlock x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7"/>
-        <TextBlock x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7"/>
-    </Grid>
+            <Button x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit" Click="Hit_Click" ></Button>
+            <Button x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check" Click="Check_Click" ></Button>
+            <TextBlock x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
+            <TextBlock x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
+            <TextBlock x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed"/>
+            <Button x:Name="playAgain" Grid.Column="3" Grid.Row="2" Padding="40" Content="Play Again" Click="playAgain_Click" Visibility="Collapsed"></Button>
+            <TextBlock x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7"/>
+            <TextBlock x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7"/>
+        </Grid>
+    </Border>
 </Page>
