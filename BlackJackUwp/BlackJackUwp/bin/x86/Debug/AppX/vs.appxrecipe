@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T23:11:03.842</Modified>
+      <Modified>2018-04-08T16:16:04.632</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.exe">
       <PackagePath>entrypoint\BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T23:11:03.582</Modified>
+      <Modified>2018-04-08T16:16:04.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -741,6 +741,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-02-14T18:17:42.092</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background.jpg">
+      <PackagePath>CardImages\background.jpg</PackagePath>
+      <Modified>2018-04-08T16:13:52.200</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-12T16:57:59.380</Modified>
@@ -755,7 +759,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.xr.xml">
       <PackagePath>BlackJackUwp.xr.xml</PackagePath>
-      <Modified>2018-04-06T22:46:20.948</Modified>
+      <Modified>2018-04-08T16:16:03.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -764,11 +768,11 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T22:58:15.184</Modified>
+      <Modified>2018-04-08T16:16:04.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\BlackJackUwp.exe">
       <PackagePath>BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-06T23:11:03.837</Modified>
+      <Modified>2018-04-08T16:16:04.629</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

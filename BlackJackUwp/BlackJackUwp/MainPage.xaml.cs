@@ -30,6 +30,8 @@ namespace BlackJackUwp
     {
         List<Card> playerHand;
         List<Card> dealerHand;
+        int playerwins = 0;
+        int dealerwins = 0;
         Deck deck;
 
         MediaPlayer mediaPlayer;
@@ -101,11 +103,15 @@ namespace BlackJackUwp
             playAgain.Visibility = Visibility.Visible;
             if (GetScore(playerHand)>GetScore(dealerHand) && GetScore(playerHand) < 22 || GetScore(dealerHand) > 21 && GetScore(playerHand)<22)
             {
+                playerwins++;
                 Winner.Text = "Player Wins";
+                playerWins.Text = "Player Wins : "+playerwins;
             }
             else
             {
+                dealerwins++;
                 Winner.Text = "Dealer Wins";
+                dealerWins.Text = "Dealer Wins : "+dealerwins;
             }
 
             Hit.IsEnabled = false;
