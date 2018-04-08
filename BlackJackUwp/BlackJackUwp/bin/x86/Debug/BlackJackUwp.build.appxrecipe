@@ -559,6 +559,9 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background.jpg">
       <PackagePath>CardImages\background.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background1.jpg">
+      <PackagePath>CardImages\background1.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

@@ -9,7 +9,7 @@
 
     
 
-    <Grid x:Name="grdContainer">
+    <Grid x:ConnectionId='1' x:Name="grdContainer">
         <Grid.Background>
             <ImageBrush ImageSource="CardImages/background1.jpg"/>
         </Grid.Background>
@@ -32,13 +32,14 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit" Click="Hit_Click" ></Button>
-        <Button x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check" Click="Check_Click" ></Button>
-        <TextBlock x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
-        <TextBlock x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
-        <TextBlock x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed"/>
-        <Button x:Name="playAgain" Grid.Column="3" Grid.Row="2" Padding="40" Content="Play Again" Click="playAgain_Click" Visibility="Collapsed"></Button>
-        <TextBlock x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7"/>
-        <TextBlock x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7"/>
+        <Button x:ConnectionId='2' x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit"                   ></Button>
+        <Button x:ConnectionId='3' x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check"                     ></Button>
+        <TextBlock x:ConnectionId='4' x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
+        <TextBlock x:ConnectionId='5' x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock x:ConnectionId='6' x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed"/>
+        <Button x:ConnectionId='7' x:Name="playAgain" Grid.Column="3" Grid.Row="2" Padding="40" Content="Play Again"                         Visibility="Collapsed"></Button>
+        <TextBlock x:ConnectionId='8' x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7"/>
+        <TextBlock x:ConnectionId='9' x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7"/>
     </Grid>
 </Page>
+

@@ -150,6 +150,7 @@
     <Content Include="CardImages\AH.png" />
     <Content Include="CardImages\AS.png" />
     <Content Include="CardImages\background.jpg" />
+    <Content Include="CardImages\background1.jpg" />
     <Content Include="CardImages\JC.png" />
     <Content Include="CardImages\JD.png" />
     <Content Include="CardImages\JH.png" />
