@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
 
-    <Border BorderBrush="Black" BorderThickness="20">
+    <Border BorderBrush="#FF95948A" BorderThickness="10">
         <Grid x:ConnectionId='1' x:Name="grdContainer">
             <Grid.Background>
                 <ImageBrush ImageSource="CardImages/background1.jpg"/>
@@ -32,14 +32,14 @@
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
 
-            <Button x:ConnectionId='2' x:Name="Hit" Grid.Column="1" Grid.Row="4"  Content="Hit"                   ></Button>
-            <Button x:ConnectionId='3' x:Name="Check" Grid.Column="2" Grid.Row="4"  Content="Check"                     ></Button>
-            <TextBlock x:ConnectionId='4' x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0"/>
-            <TextBlock x:ConnectionId='5' x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0"/>
-            <TextBlock x:ConnectionId='6' x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed"/>
-            <Button x:ConnectionId='7' x:Name="playAgain" Grid.Column="3" Grid.Row="2" Padding="40" Content="Play Again"                         Visibility="Collapsed"></Button>
-            <TextBlock x:ConnectionId='8' x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7"/>
-            <TextBlock x:ConnectionId='9' x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7"/>
+            <Button x:ConnectionId='2' x:Name="Hit" Grid.Column="1" Grid.Row="4" Width="150" Content="Hit"                   Foreground="White" FontFamily="Impact" FontSize="20" FontWeight="Bold" Background="#BD1C4B1A" ></Button>
+            <Button x:ConnectionId='3' x:Name="Check" Grid.Column="2" Grid.Row="4" Width="150" Content="Check"                     Foreground="White" FontFamily="Impact" FontSize="20" FontWeight="Bold" Background="#BD1C4B1A"></Button>
+            <TextBlock x:ConnectionId='4' x:Name="playerScore" Text="Player Score : 0" Grid.Row="4" Grid.Column="0" Foreground="White" FontWeight="Bold" FontFamily="Impact" FontSize="20" />
+            <TextBlock x:ConnectionId='5' x:Name="dealerScore" Text="Dealer Score : 0" Grid.Row="1" Grid.Column="0" Foreground="White" FontWeight="Bold" FontFamily="Impact" FontSize="20" />
+            <TextBlock x:ConnectionId='6' x:Name="Winner" Text="Wins" Grid.Row="2" Grid.Column="2" Padding="40" Visibility="Collapsed" Foreground="White" FontWeight="Bold" FontFamily="Impact" FontSize="20"/>
+            <Button x:ConnectionId='7' x:Name="playAgain" Grid.Column="3" Grid.Row="2"  Content="Play Again"                         Visibility="Collapsed" Foreground="White" FontFamily="Impact" FontSize="20" FontWeight="Bold" Background="#BD1C4B1A"></Button>
+            <TextBlock x:ConnectionId='8' x:Name="dealerWins" Text="Dealer Wins : 0" Grid.Row="1" Grid.Column="7" Foreground="White" FontWeight="Bold" FontFamily="Impact" FontSize="20" />
+            <TextBlock x:ConnectionId='9' x:Name="playerWins" Text="Player Wins : 0" Grid.Row="4" Grid.Column="7" Foreground="White" FontWeight="Bold" FontFamily="Impact" FontSize="20" />
         </Grid>
     </Border>
 </Page>
