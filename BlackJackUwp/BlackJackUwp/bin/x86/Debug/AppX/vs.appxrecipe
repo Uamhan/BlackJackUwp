@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-08T16:53:20.879</Modified>
+      <Modified>2018-04-10T11:49:02.703</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.exe">
       <PackagePath>entrypoint\BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-08T16:53:20.324</Modified>
+      <Modified>2018-04-10T11:49:02.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -497,277 +497,277 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\10C.png">
       <PackagePath>CardImages\10C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.730</Modified>
+      <Modified>2018-04-10T11:25:47.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\10D.png">
       <PackagePath>CardImages\10D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.733</Modified>
+      <Modified>2018-04-10T11:25:47.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\10H.png">
       <PackagePath>CardImages\10H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.736</Modified>
+      <Modified>2018-04-10T11:25:47.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\10S.png">
       <PackagePath>CardImages\10S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.738</Modified>
+      <Modified>2018-04-10T11:25:47.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\2C.png">
       <PackagePath>CardImages\2C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.642</Modified>
+      <Modified>2018-04-10T11:25:47.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\2D.png">
       <PackagePath>CardImages\2D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.644</Modified>
+      <Modified>2018-04-10T11:25:47.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\2H.png">
       <PackagePath>CardImages\2H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.647</Modified>
+      <Modified>2018-04-10T11:25:47.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\2S.png">
       <PackagePath>CardImages\2S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.649</Modified>
+      <Modified>2018-04-10T11:25:47.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\3C.png">
       <PackagePath>CardImages\3C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.652</Modified>
+      <Modified>2018-04-10T11:25:47.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\3D.png">
       <PackagePath>CardImages\3D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.656</Modified>
+      <Modified>2018-04-10T11:25:47.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\3H.png">
       <PackagePath>CardImages\3H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.658</Modified>
+      <Modified>2018-04-10T11:25:47.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\3S.png">
       <PackagePath>CardImages\3S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.661</Modified>
+      <Modified>2018-04-10T11:25:47.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\4C.png">
       <PackagePath>CardImages\4C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.664</Modified>
+      <Modified>2018-04-10T11:25:47.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\4D.png">
       <PackagePath>CardImages\4D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.666</Modified>
+      <Modified>2018-04-10T11:25:47.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\4H.png">
       <PackagePath>CardImages\4H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.669</Modified>
+      <Modified>2018-04-10T11:25:47.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\4S.png">
       <PackagePath>CardImages\4S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.672</Modified>
+      <Modified>2018-04-10T11:25:47.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\5C.png">
       <PackagePath>CardImages\5C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.674</Modified>
+      <Modified>2018-04-10T11:25:47.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\5D.png">
       <PackagePath>CardImages\5D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.677</Modified>
+      <Modified>2018-04-10T11:25:47.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\5H.png">
       <PackagePath>CardImages\5H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.682</Modified>
+      <Modified>2018-04-10T11:25:47.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\5S.png">
       <PackagePath>CardImages\5S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.685</Modified>
+      <Modified>2018-04-10T11:25:47.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\6C.png">
       <PackagePath>CardImages\6C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.688</Modified>
+      <Modified>2018-04-10T11:25:47.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\6D.png">
       <PackagePath>CardImages\6D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.691</Modified>
+      <Modified>2018-04-10T11:25:47.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\6H.png">
       <PackagePath>CardImages\6H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.694</Modified>
+      <Modified>2018-04-10T11:25:47.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\6S.png">
       <PackagePath>CardImages\6S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.696</Modified>
+      <Modified>2018-04-10T11:25:47.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\7C.png">
       <PackagePath>CardImages\7C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.699</Modified>
+      <Modified>2018-04-10T11:25:47.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\7D.png">
       <PackagePath>CardImages\7D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.702</Modified>
+      <Modified>2018-04-10T11:25:47.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\7H.png">
       <PackagePath>CardImages\7H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.704</Modified>
+      <Modified>2018-04-10T11:25:47.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\7S.png">
       <PackagePath>CardImages\7S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.706</Modified>
+      <Modified>2018-04-10T11:25:47.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\8C.png">
       <PackagePath>CardImages\8C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.709</Modified>
+      <Modified>2018-04-10T11:25:47.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\8D.png">
       <PackagePath>CardImages\8D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.712</Modified>
+      <Modified>2018-04-10T11:25:47.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\8H.png">
       <PackagePath>CardImages\8H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.714</Modified>
+      <Modified>2018-04-10T11:25:47.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\8S.png">
       <PackagePath>CardImages\8S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.717</Modified>
+      <Modified>2018-04-10T11:25:47.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\9C.png">
       <PackagePath>CardImages\9C.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.720</Modified>
+      <Modified>2018-04-10T11:25:47.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\9D.png">
       <PackagePath>CardImages\9D.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.723</Modified>
+      <Modified>2018-04-10T11:25:47.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\9H.png">
       <PackagePath>CardImages\9H.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.725</Modified>
+      <Modified>2018-04-10T11:25:47.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\9S.png">
       <PackagePath>CardImages\9S.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.728</Modified>
+      <Modified>2018-04-10T11:25:47.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\AC.png">
       <PackagePath>CardImages\AC.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.741</Modified>
+      <Modified>2018-04-10T11:25:47.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\AD.png">
       <PackagePath>CardImages\AD.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.743</Modified>
+      <Modified>2018-04-10T11:25:47.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\AH.png">
       <PackagePath>CardImages\AH.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.745</Modified>
+      <Modified>2018-04-10T11:25:47.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\AS.png">
       <PackagePath>CardImages\AS.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.748</Modified>
+      <Modified>2018-04-10T11:25:47.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\JC.png">
       <PackagePath>CardImages\JC.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.751</Modified>
+      <Modified>2018-04-10T11:25:47.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\JD.png">
       <PackagePath>CardImages\JD.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.755</Modified>
+      <Modified>2018-04-10T11:25:47.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\JH.png">
       <PackagePath>CardImages\JH.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.758</Modified>
+      <Modified>2018-04-10T11:25:47.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\JS.png">
       <PackagePath>CardImages\JS.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.761</Modified>
+      <Modified>2018-04-10T11:25:47.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\KC.png">
       <PackagePath>CardImages\KC.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.763</Modified>
+      <Modified>2018-04-10T11:25:47.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\KD.png">
       <PackagePath>CardImages\KD.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.766</Modified>
+      <Modified>2018-04-10T11:25:47.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\KH.png">
       <PackagePath>CardImages\KH.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.769</Modified>
+      <Modified>2018-04-10T11:25:47.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\KS.png">
       <PackagePath>CardImages\KS.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.771</Modified>
+      <Modified>2018-04-10T11:25:47.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\QC.png">
       <PackagePath>CardImages\QC.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.774</Modified>
+      <Modified>2018-04-10T11:25:47.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\QD.png">
       <PackagePath>CardImages\QD.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.776</Modified>
+      <Modified>2018-04-10T11:25:47.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\QH.png">
       <PackagePath>CardImages\QH.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.779</Modified>
+      <Modified>2018-04-10T11:25:47.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\QS.png">
       <PackagePath>CardImages\QS.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.781</Modified>
+      <Modified>2018-04-10T11:25:47.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\red_back.png">
       <PackagePath>CardImages\red_back.png</PackagePath>
-      <Modified>2018-03-12T17:43:56.783</Modified>
+      <Modified>2018-04-10T11:25:47.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-02-14T18:17:42.092</Modified>
+      <Modified>2018-04-10T11:25:47.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background.jpg">
       <PackagePath>CardImages\background.jpg</PackagePath>
-      <Modified>2018-04-08T16:13:52.200</Modified>
+      <Modified>2018-04-10T11:25:47.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background1.jpg">
       <PackagePath>CardImages\background1.jpg</PackagePath>
-      <Modified>2018-04-08T16:19:49.017</Modified>
+      <Modified>2018-04-10T11:25:47.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\CardImages\background2.jpg">
       <PackagePath>CardImages\background2.jpg</PackagePath>
-      <Modified>2018-04-08T16:48:16.692</Modified>
+      <Modified>2018-04-10T11:25:47.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-12T16:57:59.380</Modified>
+      <Modified>2018-04-10T11:25:47.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Sounds\draw.wav">
       <PackagePath>Sounds\draw.wav</PackagePath>
-      <Modified>2018-04-06T22:07:00.031</Modified>
+      <Modified>2018-04-10T11:25:47.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\Sounds\shuffle.wav">
       <PackagePath>Sounds\shuffle.wav</PackagePath>
-      <Modified>2018-04-06T22:07:00.033</Modified>
+      <Modified>2018-04-10T11:25:47.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\BlackJackUwp.xr.xml">
       <PackagePath>BlackJackUwp.xr.xml</PackagePath>
-      <Modified>2018-04-08T16:52:15.743</Modified>
+      <Modified>2018-04-10T11:49:02.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -776,11 +776,11 @@
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-08T16:53:20.712</Modified>
+      <Modified>2018-04-10T11:49:02.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lord Cthuluhoop\source\repos\BlackJackUwp\BlackJackUwp\BlackJackUwp\bin\x86\Debug\Core\BlackJackUwp.exe">
       <PackagePath>BlackJackUwp.exe</PackagePath>
-      <Modified>2018-04-08T16:53:20.875</Modified>
+      <Modified>2018-04-10T11:49:02.698</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
